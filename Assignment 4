@@ -23,10 +23,6 @@ class account{
  bal=balance-wd+dp;
  cout<<"Minimum balance is : "<<minbal<<endl;
 }
-
-
-
-
  void current()
 {
  bal = balance-wd+dp;
@@ -74,10 +70,8 @@ int main()
  int ch;
  savings s;
  account *as = &s;
-
  current c;
  account *ac = &c;
-
  while(1)
 {
  cout<<"1. Savings"<<endl;
